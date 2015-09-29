@@ -1,0 +1,22 @@
+{
+  "name": "enterprise-wpa-login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	"start": "node lib/startEAP.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin":{
+	  "enterprise-wpa-login":"./lib/startPEAP.js"
+  },
+  "author": "Campbell Morgan <campbellmorgan@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^1.4.2",
+    "lodash": "^3.10.1",
+    "minimist": "^1.2.0",
+    "prompt": "^0.2.14",
+    "temp": "^0.8.3"
+  }
+}
